@@ -1,0 +1,43 @@
+{
+  "invoice_number": "INV-001",
+  "date": "2026-03-19",
+  "due_date": "2026-04-02",
+  "payment_terms": "Net 14",
+
+  "client": {
+    "name": "Client Company Inc.",
+    "address": "456 Client Avenue",
+    "city": "New York, NY 10001",
+    "country": "United States",
+    "email": "accounts@clientcompany.com",
+    "vat_number": "US987654321"
+  },
+
+  "items": [
+    {
+      "description": "Web Design & Development",
+      "quantity": 1,
+      "unit_price": 2500.00
+    },
+    {
+      "description": "Monthly Hosting & Maintenance",
+      "quantity": 3,
+      "unit_price": 150.00
+    },
+    {
+      "description": "SEO Optimization Package",
+      "quantity": 1,
+      "unit_price": 800.00
+    },
+    {
+      "description": "Content Writing (pages)",
+      "quantity": 5,
+      "unit_price": 120.00
+    }
+  ],
+
+  "tax_rate": 20,
+  "currency": "GBP",
+  "currency_symbol": "£",
+  "notes": "Thank you for your business. Payment can be made by bank transfer to the account details below. Please include the invoice number as a reference."
+}
